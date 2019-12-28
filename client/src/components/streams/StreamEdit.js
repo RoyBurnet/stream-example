@@ -1,4 +1,4 @@
-import _ from 'lodash'
+import _ from 'lodash';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { fetchStream, editStream } from '../../actions';
@@ -10,7 +10,7 @@ class StreamEdit extends Component {
   }
 
   onSubmit = formValues => {
-    this.props.editStream(this.props.match.params.id, formValues)
+    this.props.editStream(this.props.match.params.id, formValues);
   };
 
   render() {
