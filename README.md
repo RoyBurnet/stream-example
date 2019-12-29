@@ -2,7 +2,7 @@
  
 cd  into folder rtmpserver `npm init` when completed run `npm run start`\
 cd  into folder server `npm init` when completed run `npm run start`\
-cd  into folder  client `npm init` when completed run `npm run start`\
+cd  into folder  client `npm init` when completed run `npm run start`
 
 create new stream channel `http://localhost:8000/streams/new`
 
@@ -30,5 +30,6 @@ stream key = new stream channel id: 3
 
 stream key is the id for a stream created once a user creates a new stream
 you can find the id's inside `./server/db.json`
+
 ![alt text](./image3.png "screenshot2")
 
